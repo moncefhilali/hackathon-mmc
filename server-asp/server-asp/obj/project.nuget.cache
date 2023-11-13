@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "882d8wLo3HPuXZxu9tTTENsOntMF4NXM5lrDgaW1WpX49/E4T47SNoVaHHJaEttacfwzS6k7o2DmzUmOr8pmvQ==",
+  "dgSpecHash": "/wlfKHl/OcnjALVZ5qxunODJbLDnO1pXv5DuMf0njbzxmLVJNKDr/vs20ZbepXBdvHTGzog5Viry7DI+IYRWUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\.NET\\Projects\\server-asp\\server-asp\\server-asp.csproj",
+  "projectFilePath": "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\Hakathon\\Project\\server-asp\\server-asp\\server-asp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\monce\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\monce\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

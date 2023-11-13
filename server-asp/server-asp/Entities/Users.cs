@@ -18,6 +18,9 @@ namespace server_asp.Entities
         [Column("LastName")]
         public string LastName { get; set; } = string.Empty;
 
+        [Column("Email")]
+        public string Email { get; set; } = string.Empty;
+
         [Column("Password")]
         public string Password { get; set; } = string.Empty;
 

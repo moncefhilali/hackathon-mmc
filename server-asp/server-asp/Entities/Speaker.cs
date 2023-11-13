@@ -29,7 +29,5 @@ namespace server_asp.Entities
         [Column("Specialization")]
         public string Specialization { get; set; }
 
-        [ForeignKey("UserID")]
-        public User User { get; set; }
     }
 }

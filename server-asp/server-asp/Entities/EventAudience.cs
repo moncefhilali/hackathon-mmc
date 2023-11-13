@@ -13,11 +13,5 @@ namespace server_asp.Entities
 
         [Column("AudienceID")]
         public int AudienceID { get; set; }
-
-        [ForeignKey("EventID")]
-        public Event Event { get; set; }
-
-        [ForeignKey("AudienceID")]
-        public Audience Audience { get; set; }
     }
 }

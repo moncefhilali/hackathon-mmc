@@ -46,11 +46,5 @@ namespace server_asp.Entities
 
         [Column("Status")]
         public string Status { get; set; }
-
-        [ForeignKey("SponsorID")]
-        public Sponsor Sponsor { get; set; }
-
-        [ForeignKey("PartnerID")]
-        public Partner Partner { get; set; }
     }
 }

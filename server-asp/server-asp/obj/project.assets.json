@@ -11673,11 +11673,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\.NET\\Projects\\server-asp\\server-asp\\server-asp.csproj",
+      "projectUniqueName": "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\Hakathon\\Project\\server-asp\\server-asp\\server-asp.csproj",
       "projectName": "server-asp",
-      "projectPath": "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\.NET\\Projects\\server-asp\\server-asp\\server-asp.csproj",
+      "projectPath": "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\Hakathon\\Project\\server-asp\\server-asp\\server-asp.csproj",
       "packagesPath": "C:\\Users\\monce\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\.NET\\Projects\\server-asp\\server-asp\\obj\\",
+      "outputPath": "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\Hakathon\\Project\\server-asp\\server-asp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\monce\\AppData\\Roaming\\NuGet\\NuGet.Config",
