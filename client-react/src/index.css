@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  padding: 0px 20px;
+}
+.bg1{
+  background-image: url(./assets/back1.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+}
