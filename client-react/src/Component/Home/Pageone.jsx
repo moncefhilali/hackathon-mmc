@@ -43,7 +43,7 @@ export default function page1() {
     minute: "2-digit",
   });
 
-  // const endDate = new Date(event.endDate);
+
 
   const formattedDate = startDate.toLocaleDateString("en-US", {
     day: "numeric",
