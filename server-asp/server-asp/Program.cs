@@ -13,7 +13,7 @@ var dbHost = "localhost";
 var dbName = "MMC";
 var dbUser = "sa";
 var dbPassword = "1234"; // appsettings
-var connectionString = $"server={dbHost}; database={dbName}; User ID={dbUser}; Password={dbPassword}; MultipleActiveResultSets=True; TrustServerCertificate=True;";
+var connectionString = $"Server={dbHost};Database={dbName};Integrated Security=True;MultipleActiveResultSets=True;TrustServerCertificate=True;";
 builder.Services.AddDbContext<MMCContext>(opt => opt.UseSqlServer(connectionString));
 /* ====================================== */
 

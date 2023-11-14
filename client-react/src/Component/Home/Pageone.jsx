@@ -2,9 +2,33 @@
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import axios from 'axios'
+import { useEffect,useState } from "react";
 
 
 export default function page1() {
+
+  const [data,setdata] = useState('')
+
+  useEffect(() => {
+      axios.get("")
+        .then(function (response) {
+          setdata(response.data)
+        })
+        .catch(function (res) {
+          console.log(res);
+        })
+    }, [])
+
+
+
+
+
+
+
+
+
+
   const settings = {
     dots: true,
     infinite: true,
@@ -12,7 +36,7 @@ export default function page1() {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
-
+  
   return (
     <Slider {...settings}>
       <div className="bg1 w-full h-[600px] rounded-3xl my-6 cursor-grab">
