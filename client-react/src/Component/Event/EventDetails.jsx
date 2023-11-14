@@ -4,8 +4,50 @@ import Man from '../../assets/man 1.png'
 import localisation from '../../assets/location.png'
 import time from '../../assets/time.png'
 import calendria from '../../assets/calendar.png'
+import axios from 'axios'
+import { useEffect ,useState } from 'react';
 
 export default function EventDetails() {
+    const [id, setId] = useState();
+    const [data1,setdata] =  useState({})
+
+    useEffect(() => {
+      const id = localStorage.getItem("id");
+      if (id) {
+            setId(id)
+            console.log(id)
+            axios.get(`https://localhost:7096/api/Events/${id}`)
+            .then(function (response) {
+              setdata(response.data);
+              console.log(response.data); // Log the data to see what you're getting
+            })
+            .catch(function (error) {
+              console.log(error);
+            });
+      }
+    }, [id]);
+    useEffect(() => {
+        console.log(data1);
+        console.log(data1.address);
+        // console.log(data1.date);
+      }, [data1]);
+
+      const startDate = new Date(data1.date);
+      const startTime = startDate.toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit",
+      });
+    
+      // const endDate = new Date(event.endDate);
+    
+      const formattedDate = startDate.toLocaleDateString("en-US", {
+        day: "numeric",
+        month: "long",
+        year: "numeric",
+      });
+      const formattedTime = `${startTime}`;
+
+
   return (
     <div className='w-full bg-[#FFFFFF] shadow-md my-7 py-3 px-10 rounded-[20px]'>
       <div className='flex  justify-between items-center'>
@@ -48,15 +90,15 @@ export default function EventDetails() {
     <div className='flex  w-1/2 flex-col'>
         <div className='rounded-[20px] bg-[#FFFFFF] shadow-md py-3 px-4 my-7 w-full'>
             <div className='flex justify-between my-3'>
-                <h3 className='font-bold text-[20px]'>26 dec 2023</h3>
+                <h3 className='font-bold text-[20px]'>{formattedDate}</h3>
                 <img src={calendria} alt="" />
             </div>
             <div className='flex justify-between my-3'>
-                <h3 className='font-bold text-[20px]'>08:30 am</h3>
-                <img src={localisation} alt="" />
+                <h3 className='font-bold text-[20px]'>{formattedTime} am</h3>
+                <img src={time} alt="" />
             </div>
             <div className='flex justify-between my-3'>
-                <h3 className='font-bold text-[20px]'>Ensa Khouribga</h3>
+                <h3 className='font-bold text-[20px]'>{data1.address}</h3>
                 <img src={localisation} alt="" />
             </div>
         <h2 className='text-center text-[#24756E] font-bold text-[20px]'>About the Event </h2>

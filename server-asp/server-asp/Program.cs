@@ -9,12 +9,13 @@ builder.Services.AddControllers();
 builder.Services.AddCors();
 
 /* Database Context Dependency Injection */
-var dbHost = "localhost";
+var dbHost = "DESKTOP-BUBR7FV\\SQLEXPRESS";
 var dbName = "MMC";
 var dbUser = "sa";
 var dbPassword = "1234"; // appsettings
 var connectionString = $"server={dbHost}; database={dbName}; User ID={dbUser}; Password={dbPassword}; MultipleActiveResultSets=True; TrustServerCertificate=True;";
 builder.Services.AddDbContext<MMCContext>(opt => opt.UseSqlServer(connectionString));
+builder.Services.AddScoped<MMCContext>();
 /* ====================================== */
 
 
