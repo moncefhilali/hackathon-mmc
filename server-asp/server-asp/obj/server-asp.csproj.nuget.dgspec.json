@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\Hakathon\\Project\\server-asp\\server-asp\\server-asp.csproj": {}
+    "C:\\Users\\pc\\Desktop\\Nouveau dossier (2)\\hackathon-mmc\\server-asp\\server-asp\\server-asp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\Hakathon\\Project\\server-asp\\server-asp\\server-asp.csproj": {
+    "C:\\Users\\pc\\Desktop\\Nouveau dossier (2)\\hackathon-mmc\\server-asp\\server-asp\\server-asp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\Hakathon\\Project\\server-asp\\server-asp\\server-asp.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Desktop\\Nouveau dossier (2)\\hackathon-mmc\\server-asp\\server-asp\\server-asp.csproj",
         "projectName": "server-asp",
-        "projectPath": "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\Hakathon\\Project\\server-asp\\server-asp\\server-asp.csproj",
-        "packagesPath": "C:\\Users\\monce\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\Hakathon\\Project\\server-asp\\server-asp\\obj\\",
+        "projectPath": "C:\\Users\\pc\\Desktop\\Nouveau dossier (2)\\hackathon-mmc\\server-asp\\server-asp\\server-asp.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc\\Desktop\\Nouveau dossier (2)\\hackathon-mmc\\server-asp\\server-asp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\monce\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
