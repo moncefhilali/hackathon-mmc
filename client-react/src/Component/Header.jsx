@@ -1,6 +1,7 @@
 import image1 from '../assets/logo.png'
 import Trans from '../assets/translation 1.png'
 import notif from '../assets/notif.png'
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
@@ -17,11 +18,11 @@ export default function Header() {
             </div>
               <div className='flex order-last gap-9 '>
                 <div className='flex justify-between gap-6 items-center'>
-                <a href="" className='font-semibold text-[17px]'>Home</a>
-                <a href="" className='font-semibold text-[17px]'>Events</a>
-                <a href="" className='font-semibold text-[17px]'>Community</a>
-                <a href="" className='font-semibold text-[17px]'>Speakers</a>
-                <a href="" className='font-semibold text-[17px]'>Contact</a>
+                <Link to="/" className='font-semibold text-[17px]'>Home</Link>
+                <Link to="/events" className='font-semibold text-[17px]'>Events</Link>
+                <Link to="/aboutus" className='font-semibold text-[17px]'>Community</Link>
+                <Link to="/speakers" className='font-semibold text-[17px]'>Speakers</Link>
+                <Link to="/contact" className='font-semibold text-[17px]'>Contact</Link>
                 </div>
               <div className='flex gap-3  border-black border-[1px] rounded-full px-2 py-1'>
                 <p className='font-semibold text-[17px]'>En</p>
